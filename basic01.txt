@@ -1,0 +1,8 @@
+loop do
+  play 60, amp: 1.5, attack: 0.5, release: 1.0
+  sleep 0.5
+  play 67 ,amp: 1, attack: 0, release: 0.25, pan: -0.7
+  sleep 0.5
+  play 69 ,amp: 0.5, attack: 0.1, release: 0.25, pan: s0.7
+  sleep 0.5
+end

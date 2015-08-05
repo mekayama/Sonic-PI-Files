@@ -1,0 +1,7 @@
+live_loop :quit do
+  with_fx :echo, mix: 0.5, phase: 0.5 do
+    sample :guit_em9, rate: 3.5
+  end
+  sample :guit_em9, rate: -1.5
+  sleep 0.5
+end

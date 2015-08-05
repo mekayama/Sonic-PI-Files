@@ -1,0 +1,17 @@
+live_loop:live do
+use_synth :supersaw
+  play 30, amp: 1.5, pan: 0.7
+  sleep 0.5
+  play 50, amp: 0.25,pan: -0.8,release: 1.0
+  sleep 0.5
+  play 65, amp: 1.0, pan: -0.7,attack: 0.4,release: 1.0
+  sleep 0.7
+  play 67
+  sleep 0.5
+  play 80
+  play 84
+  sleep 0.3
+  play 80
+  play 90
+  sleep 0.2
+end 
